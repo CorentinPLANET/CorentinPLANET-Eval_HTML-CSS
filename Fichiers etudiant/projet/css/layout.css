@@ -15,13 +15,19 @@ flex-direction: column;
 }
 .app-bottom{
     display: flex;
+
 }
 .current{
     display: flex;
-    justify-content: stretch;
+    flex-grow:1;
 }
 .controls{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.current-details{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly ;
 }
