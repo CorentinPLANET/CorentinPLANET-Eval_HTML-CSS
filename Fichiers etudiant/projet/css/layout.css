@@ -1,0 +1,27 @@
+.app-top{
+display: flex;
+}
+.app-nav{
+display: flex;
+flex-direction: column;
+}
+.app-content{
+    display: flex;
+    flex-direction: column;
+}
+.album{
+    display: flex;
+    justify-content: stretch;
+}
+.app-bottom{
+    display: flex;
+}
+.current{
+    display: flex;
+    justify-content: stretch;
+}
+.controls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
