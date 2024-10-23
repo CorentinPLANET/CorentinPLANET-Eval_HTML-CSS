@@ -40,20 +40,16 @@ a:hover {
 ---------------------------------------------------------------------- */
 .app-nav {
     width: 50px;
-    background: red;
     color: #fff;
 }
 /* ----------------------------------------------------------------------
     @@@ Partie album + tracklist
 ---------------------------------------------------------------------- */
-.app-content {
-    background: yellow;
-}
+
 /* ----------------------------------------------------------------------
     @@@ Partie album
 ---------------------------------------------------------------------- */
 .app-content .album {
-    background: purple;
     padding: 20px;
 }
 .app-content .cover {
@@ -69,7 +65,6 @@ a:hover {
     @@@ Partie tracklist
 ---------------------------------------------------------------------- */
 .app-content .tracklist {
-    background: violet;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -91,9 +86,7 @@ a:hover {
 /* ----------------------------------------------------------------------
     @@@ Partie Player : lecture en cours + controls
 ---------------------------------------------------------------------- */
-.app-bottom .current {
-    background: darkblue;
-}
+
 .app-bottom .current-details {
     margin-left: 20px;
 }
@@ -107,6 +100,5 @@ a:hover {
 }
 .app-bottom .controls {
     width: 30%;
-    background: cornflowerblue;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
