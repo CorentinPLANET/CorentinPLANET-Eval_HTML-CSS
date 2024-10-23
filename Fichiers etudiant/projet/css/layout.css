@@ -1,21 +1,35 @@
+.app-wrapper{
+    display: flex;
+    flex-direction: column;
+}
 .app-top{
-display: flex;
+    display: flex;
 }
 .app-nav{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center ;
 }
 .app-content{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 .album{
     display: flex;
     justify-content: stretch;
 }
+.tracklist{
+    display: flex;
+    flex-direction: column;
+}
+.track-item{
+   display: flex;
+   justify-content: space-between; 
+}
 .app-bottom{
     display: flex;
-
 }
 .current{
     display: flex;
