@@ -1,47 +1,57 @@
-.app-wrapper{
-    display: flex;
-    flex-direction: column;
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
 }
-.app-top{
-    display: flex;
+
+.app-top {
+  display: flex;
+  flex-grow: 1;
 }
-.app-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items:center ;
+
+.app-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.app-content{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
-.album{
-    display: flex;
-    justify-content: stretch;
+
+.album {
+  display: flex;
 }
-.tracklist{
-    display: flex;
-    flex-direction: column;
+
+.tracklist {
+  display: flex;
+  flex-direction: column;
 }
-.track-item{
-   display: flex;
-   justify-content: space-between; 
+
+.track-item {
+  display: flex;
+  justify-content: space-between;
 }
-.app-bottom{
-    display: flex;
+
+.app-bottom {
+  display: flex;
 }
-.current{
-    display: flex;
-    flex-grow:1;
+
+.current {
+  display: flex;
+  flex-grow: 1;
 }
-.controls{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.current-details{
-    display:flex ;
-    flex-direction: column;
-    justify-content: space-evenly ;
+
+.current-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
